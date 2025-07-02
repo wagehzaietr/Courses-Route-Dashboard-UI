@@ -27,9 +27,7 @@ function Coursetopics () {
             <Courses week="Week 1-4"/>
           </div>
           <br />
-          <br />
-          <br />
-          <br />
+
           <div className='px-3'>
             <Courses week="Week 5-8" />
           </div>

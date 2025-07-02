@@ -1,6 +1,6 @@
 import { FaArrowRight } from 'react-icons/fa6'
 import Courses from './Courses'
-import { useState } from 'react'
+
 
 const users = [
   {
