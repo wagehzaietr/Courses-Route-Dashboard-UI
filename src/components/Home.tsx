@@ -5,6 +5,7 @@ import heroimg from '/heroimg.webp'
 import CourseMaterials from './CourseMaterials'
 import Comments from './Comments'
 import Icons from './Icons'
+import { Toaster } from 'react-hot-toast'
 
 function Home () {
   const [isplaying, setisplaying] = useState(false)
@@ -67,6 +68,7 @@ function Home () {
           </div>
         </div>
       </div>
+      <Toaster/>
     </>
   )
 }
