@@ -3,14 +3,14 @@ import { FaFileAlt, FaLock } from 'react-icons/fa'
 function Courses ({week}:{week:string}) {
   return (
     <div>
-      <div className='mt-4 border px-4 py-2'>
-        <h3 className='font-bold text-md'>{week}</h3>
-        <p className='text-sm text-gray-500 mb-2'>
+      <div className='mt-4 border md:px-4 py-2'>
+        <h3 className='font-bold text-md p-2'>{week}</h3>
+        <p className='text-sm text-gray-500 mb-2 p-2'>
           Advanced storytelling techniques for writers: Personas, Characters &
           Plots
         </p>
 
-        <ul className='space-y-2'>
+        <ul className='space-y-2 p-2'>
           {[
             'Introduction',
             'Course Overview',

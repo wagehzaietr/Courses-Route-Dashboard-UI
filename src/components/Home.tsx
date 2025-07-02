@@ -16,12 +16,12 @@ function Home () {
   return (
     <>
       <div className='container mx-auto mt-4 '>
-        <h1 className='text-4xl font-bold'>Starting SEO as your Home</h1>
-        <div className='flex mt-8 justify-center '>
-          <div className=' h-[520px] mt-6 w-3/4 bg-black text-xl rounded-md'>
+        <h1 className='text-3xl px-4 md:px-0 md:text-4xl font-bold'>Starting SEO as your Home</h1>
+        <div className='flex flex-wrap md:flex-nowrap mt-4 md:mt-8 justify-center '>
+          <div className=' h-[520px] mx-4 md:mx-0 mt-6 w-full md:w-3/4 bg-black text-xl rounded-md'>
             {!isplaying ? (
               <div
-                className='relative w-full h-full cursor-pointer'
+                className='relative w-full h-full cursor-pointer '
                 onClick={() => setisplaying(true)}
               >
                 {/* Preview Image */}
@@ -68,7 +68,7 @@ function Home () {
                 <FaUser size={20} />
               </div>
             </div>
-            <section className='p-4 mt-8'>
+            <section className=' mt-8'>
               <h1 className='text-2xl font-bold'>Course Material</h1>
               <div>
               <CourseMaterials />
@@ -79,7 +79,7 @@ function Home () {
               <Comments/>
             </section>
           </div>
-          <div className='w-3/2 mx-4'>
+          <div className='w-3/2 mx-4 hidden md:block'>
             <Coursetopics />
           </div>
         </div>
